@@ -1,0 +1,28 @@
+.transactions {
+
+    background-color: beige;
+    border: 1px solid blue;
+    
+    border-radius: 5px;
+   
+    margin-top: 20px;
+  
+    text-align: center;
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.title {
+    padding-top: 10px;
+    padding-bottom: 20px;
+    background-color: aqua;
+}
+td {
+    padding-top: 10px;
+    padding-bottom: 10px;
+   
+
+}
+tr:nth-child(2n) {
+    background-color: blueviolet;
+}
