@@ -10,7 +10,7 @@ export const Statistics = ({ good, neutral, bad, total, goodPersentage }) => {
                 <Item>Neutral: {neutral}</Item>
                 <Item>Bad: {bad}</Item>
                 <Item>Total: {total}</Item>
-                <Item>Positive feedback: {goodPersentage}</Item>
+                <Item>Positive feedback: {goodPersentage} %</Item>
             </List>
             );
     };
@@ -20,7 +20,7 @@ export const Statistics = ({ good, neutral, bad, total, goodPersentage }) => {
         neutral: PropTypes.number.isRequired,
         bad: PropTypes.number.isRequired,
         total: PropTypes.number.isRequired,
-       positive: PropTypes.string.isRequired,
+        goodPersentage: PropTypes.string.isRequired,
     };
     
   

@@ -1,31 +1,5 @@
 @import-normalize; /* bring in normalize.css styles */
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p {
-  margin: 0;
-}
-ul
-{
-  margin: 0;
-  padding: 0;
-}
-img {
-  display: block;
- 
-}
-.link {
-  text-decoration: none;
-}
-.list {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -33,9 +7,26 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: cadetblue;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+margin: 0;
+}
+
+ul,
+li,
+p{
+  margin: 0;
+  list-style: none;
 }
